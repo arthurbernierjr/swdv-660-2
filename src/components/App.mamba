@@ -1,6 +1,10 @@
 { crel } = require 'teact'
 { Component } = require 'react'
 $ = crel
+# Made a simple change showing off that I am working on my
+# own programming language
+# This class is giving me alot of ideas
+
 blueprint App inheritsFrom Component
   constructor: (props)->
     @state =

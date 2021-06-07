@@ -1,4 +1,3 @@
-
 // Explanation for Students ---- This is requires the gulp package from node modules
 // Gulp exports an object with many methods
 // task , watch, src and pipe will be the main ones we use today but see the gulp docs to expand and also see how you might refactor it to no longer use task and maybe use exports, series and parallells
@@ -62,7 +61,7 @@ gulp.task('default', (cb) => {
 			'./public/**/*',
 			'./public/*',
 			'./public/js/**/.#*js',
-			'./public/css/**/.#*css'
+			'./public/css/**/*.css'
 		])
 		.on('change', reload);
 		cb()
